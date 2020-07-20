@@ -1,4 +1,3 @@
-# EcoStepApp
 # EcoStepApp for API Hackathon 21-Jul-2020
 # Getting started
 	1.Clone this repository
