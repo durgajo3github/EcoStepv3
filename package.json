@@ -1,0 +1,16 @@
+{
+  "name": "sandbox-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+     "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express":"*",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}

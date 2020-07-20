@@ -1,0 +1,21 @@
+{
+	"clientId": "ua29eUQFUrEixSxMeIRwEYqveoWZIyMC22xSsievmRM="
+	,"clientSecret": "rH29n8cuqlAOjIPuCJIU2DNRvIFnlvrNI0y-0S6aA-0="
+	,"teamDomain": "86dfea2b-4e1c-4929-9eb4-a0f8f0f04b2e.example.org"
+	,"customerNumber": "123456789012"
+	,"proxy": null
+	,"Category" :{
+		"Home":{
+			 "CarbonPositive":["Electric Bill"]
+			,"CarbonNegative":[]
+		}
+		,"Travel":{
+			 "CarbonPositive":["Metro Train","Bicycle dealers"]
+			,"CarbonNegative":["Airlines", "Automobile","Petroleum product"]
+		}
+		,"Food":{
+			 "CarbonPositive":["Organic store"]
+			,"CarbonNegative":["Meat Store"]
+		}
+		}
+}
