@@ -12,8 +12,6 @@
 	4.Click on transactions hyperlink to get the transactions that contributed to carbon footprint calculation
 
 # Configuration
-ClientId & ClientSecret: These keys need to match the app configuration. They are sent to the sandbox's API during the authentication process.
-teamDomain: this domain needs to match the domain specified in the team configuration. 
 	1.The config.json file needs to contain some key information to allow the example app to communicate with the sandbox api:
 	2.Enter the Client ID and Client Secret from the Credentials section of your app's page (dashboard -> EcoStepApp-... -> Credentials)
 	3.Enter the Domain from the Team Information section of your team's page (dashboard ->EcoStepApp-team-... -> Team Information)
