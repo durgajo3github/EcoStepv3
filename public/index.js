@@ -5,7 +5,10 @@ function getUsers(){
     .then((response) => response.json())
     .then((data) => {
         let output= '';
-        let divRowOpen = `<div class="row">`;
+                let divRowOpen = ` 
+        <h5 class="heading4 mb-2">Carbon foot based on your last 3 months transaction</h5>
+        <div class="row">
+        `;
         let divRowClose = `
         </div>                
         `;        
