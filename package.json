@@ -1,15 +1,16 @@
 {
-  "name": "sandbox-example",
+  "name": "EcoStep Application ",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-     "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express":"*",
+    "colors": "^1.4.0",
+    "express": "*",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
   }
