@@ -6,7 +6,7 @@ function getUsers(){
     .then((data) => {
         let output= '';
                 let divRowOpen = ` 
-        <h5 class="heading4 mb-2">Carbon foot based on your last 3 months transaction</h5>
+        <h5 class="heading4 mb-2">Carbon footprint based on your last 3 months transaction</h5>
         <div class="row">
         `;
         let divRowClose = `

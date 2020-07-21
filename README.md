@@ -15,6 +15,10 @@
 	2.Enter the Client ID and Client Secret from the Credentials section of your app's page (dashboard -> EcoStepApp-... -> Credentials)
 	3.Enter the Domain from the Team Information section of your team's page (dashboard ->EcoStepApp-team-... -> Team Information)
 
+# docker
+	1.This repository contains the dockerfile for: docker build
+	2.Image location durgajo3docker/ecostepapp_nodejs:ecostepimage
+	
 
 © 2020 GitHub, Inc.
 Terms

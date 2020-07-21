@@ -8,20 +8,20 @@
 		"Home":{
 			 "CarbonPositive":["Electric Bill"]
 			,"CarbonNegative":[]
-			,"CarbonPositiveWeight":"0.1"
-			,"CarbonNegativeWeight":"0.25"
+			,"CarbonPositiveWeight":"1.1"
+			,"CarbonNegativeWeight":"2.25"
 			}
 		,"Travel":{
 			 "CarbonPositive":["Metro Train","Bicycle dealers"]
 			,"CarbonNegative":["Airlines", "Automobile","Petroleum product"]
-			,"CarbonPositiveWeight":"0.5"
-			,"CarbonNegativeWeight":"0.75"
+			,"CarbonPositiveWeight":"2.5"
+			,"CarbonNegativeWeight":"3.75"
 			}
 		,"Food":{
 			 "CarbonPositive":["Organic store"]
 			,"CarbonNegative":["Meat Store"]
-			,"CarbonPositiveWeight":"0.25"
-			,"CarbonNegativeWeight":"0.60"
+			,"CarbonPositiveWeight":"1.25"
+			,"CarbonNegativeWeight":"2.60"
 			}
 		}
 }
