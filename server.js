@@ -112,18 +112,19 @@ function calculateCarbonCredit (transactions, configparams){
 	)
 
 	/** Update the Carbon Value */
-
+	let Pweight = parseInt(configparams.CarbonPositiveWeight);
 	let PCarbonValue = carbonPTransactions.reduce (
 			(totvalue, element)=> {
-				totvalue = totvalue + parseInt(element.Amount.Amount);
+				totvalue = totvalue + (Pweight *parseInt(element.Amount.Amount));
 				return totvalue;
 			}
 			,0 //Initial value
 	)
-
+	
+	let Nweight = parseInt(configparams.CarbonNegativeWeight);
 	let NCarbonValue = carbonNTransactions.reduce (
 		(totvalue, element)=> {
-			totvalue = totvalue + parseInt(element.Amount.Amount);
+			totvalue = totvalue + (Nweight * parseInt(element.Amount.Amount));
 			return totvalue;
 		}
 		,0 //Initial value
