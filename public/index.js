@@ -16,8 +16,10 @@ function getUsers(){
                 <div class="four col-md-3">
                     <div class="counter-box colored"> <h4 class="h4 heading4">${user.category}</h4> 
                     <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i> 
-                        <span id ='food' class="counter" data-target="60000">${user.carbonFootprint}</span>                         
-                            <a class="anchortrans" href="#" onclick= "javascript:getTransaction('${user.category}')">${user.transactions} Transaction</a>
+                        <span id ='food' class="counter" data-target="60000">${user.carbonFootprint}</span>
+                            <div class="anchortrans">
+                                <a href="#" onclick= "javascript:getTransaction('${user.category}')">${user.transactions} Transaction</a>
+                            </div>
                     </div>
                 </div>          
             `;                            
@@ -27,8 +29,10 @@ function getUsers(){
                     <div class="counter-box coloredneg"> 
                     <h4 class="h4 heading4">${user.category}</h4> 
                      <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i> 
-                        <span id ='food' class="counter" data-target="60000">${user.carbonFootprint}</span>                                                
-                            <a class="anchortrans" href="#" onclick= "javascript:getTransaction('${user.category}')">${user.transactions} Transaction</a>
+                        <span id ='food' class="counter" data-target="60000">${user.carbonFootprint}</span>
+                            <div class="anchortrans">
+                                <a href="#" onclick= "javascript:getTransaction('${user.category}')">${user.transactions} Transaction</a>
+                            </div>           
                     </div>
                 </div>          
             `;            
